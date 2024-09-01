@@ -4,6 +4,7 @@ public class DefangingIpAddress {
 
     public static void main(String[] args) {
 
+        //Exercise 2
         String ipAddress1 = "1.1.1.1";
         String result1 = convertIpAddress(ipAddress1);
         System.out.println(result1);

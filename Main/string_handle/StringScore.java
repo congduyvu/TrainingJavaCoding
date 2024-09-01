@@ -4,6 +4,7 @@ public class StringScore {
 
     public static void main(String[] args) {
 
+        //Exercise 1
         String givenString1 = "hello";
         int result1 = AbsoluteCalculation(givenString1);
         System.out.println(result1);

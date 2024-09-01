@@ -4,6 +4,7 @@ public class StringPermutation {
 
     public static void main(String[] args) {
 
+        //Exercise 3
         String s1 = "abc";
         String t1 = "bac";
         int result1 = absoluteCalculation(s1, t1);

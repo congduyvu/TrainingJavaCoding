@@ -4,6 +4,7 @@ public class JewelsStones {
 
     public static void main(String[] args) {
 
+        //Exercise 4
         String jewels1 = "aA";
         String stones1 = "aAAbbbb";
         int result1 = countJewelsInStones(jewels1, stones1);

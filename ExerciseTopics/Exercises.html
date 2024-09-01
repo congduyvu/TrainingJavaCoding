@@ -6,7 +6,7 @@
 </head>
 <body>
     <div id="1">
-        <h1>3110. Score of a String</h1>
+        <h1>Score of a String</h1>
         <div>
             You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.<br>
             Return the score of s.<br><br>
@@ -27,7 +27,7 @@
     </div>
 
     <div id="2">
-        <h1>1108. Defanging an IP Address</h1>
+        <h1>Defanging an IP Address</h1>
         <div>
             Given a valid (IPv4) IP address, return a defanged version of that IP address.<br>
             A defanged IP address replaces every period "." with "[.]".<br><br>
@@ -40,6 +40,31 @@
             Example 2:<br>
             Input: address = "255.100.50.0"<br>
             Output: "255[.]100[.]50[.]0"<br>
+        </div>
+    </div>
+
+    <div id="3">
+        <h1>Permutation Difference between Two Strings</h1>
+        <div>
+            You are given two strings s and t such that every character occurs at most once in s and t is a permutation of s.<br>
+            The permutation difference between s and t is defined as the sum of the absolute difference between the index of the occurrence of each character in s and the index of the occurrence of the same character in t.<br>
+            Return the permutation difference between s and t.<br><br>
+        </div>
+        <div>
+            Example 1:<br>
+            Input: s = "abc", t = "bac"<br>
+            Output: 2<br>
+            Explanation:<br>
+            For s = "abc" and t = "bac", the permutation difference of s and t is equal to the sum of:<br>
+            The absolute difference between the index of the occurrence of "a" in s and the index of the occurrence of "a" in t.<br>
+            The absolute difference between the index of the occurrence of "b" in s and the index of the occurrence of "b" in t.<br>
+            The absolute difference between the index of the occurrence of "c" in s and the index of the occurrence of "c" in t.<br>
+            That is, the permutation difference between s and t is equal to |0 - 1| + |1 - 0| + |2 - 2| = 2.<br><br>
+
+            Example 2:<br>
+            Input: s = "abcde", t = "edbac"<br>
+            Output: 12<br>
+            Explanation: The permutation difference between s and t is equal to |0 - 3| + |1 - 2| + |2 - 4| + |3 - 1| + |4 - 0| = 12.<br>
         </div>
     </div>
 </body>

@@ -109,32 +109,5 @@
             Explanation: "z" does not occur in any of the words. Hence, we return an empty array.<br>
         </div>
     </div>
-
-    <div id="6">
-        <h1>Goal Parser Interpretation</h1>
-        <div>
-            You own a Goal Parser that can interpret a string command. The command consists of an alphabet of "G", "()" and/or "(al)" in some order.<br>
-            The Goal Parser will interpret "G" as the string "G", "()" as the string "o", and "(al)" as the string "al". The interpreted strings are then concatenated in the original order.<br>
-            Given the string command, return the Goal Parser's interpretation of command.<br><br>
-        </div>
-        <div>
-            Example 1:<br>
-            Input: command = "G()(al)"<br>
-            Output: "Goal"<br>
-            Explanation: The Goal Parser interprets the command as follows:<br>
-            G -> G<br>
-            () -> o<br>
-            (al) -> al<br>
-            The final concatenated result is "Goal".<br><br>
-
-            Example 2:<br>
-            Input: command = "G()()()()(al)"<br>
-            Output: "Gooooal"<br><br>
-
-            Example 3:<br>
-            Input: command = "(al)G(al)()()G"<br>
-            Output: "alGalooG"<br>
-        </div>
-    </div>
 </body>
 </html>

@@ -3,6 +3,8 @@ package string_handle;
 public class LongestCommonPrefix {
 
     public static void main(String[] args) {
+
+        //exercise 12
         String[] strs1 = {"flower", "flow", "flight"};
         System.out.println("Longest Common Prefix: " + longestCommonPrefix(strs1)); // Output: "fl"
 
